@@ -1,12 +1,11 @@
 <h1>Analyzing Global RDP Attacks: Geolocation Insights with Azure Sentinel</h1>
 
 <h2>Description</h2>
-<b>This repository contains a PowerShell script designed to parse Windows Event Log data and analyze failed RDP (Remote Desktop Protocol) attacks. It leverages a third-party API to gather geographic information about the attackers' locations.
+<b>This repository features a PowerShell script tailored to parse Windows Event Log data for analyzing failed RDP (Remote Desktop Protocol) attacks. It integrates with a third-party API to retrieve geographic information about the attackers' locations.
 </b>
-<br />
-<br />
-<h2>Demo Overview</h2>
-<b>In this demonstration, I showcase the setup of Azure Sentinel (SIEM) connected to a live virtual machine acting as a honeypot. Experience real-time observations of RDP brute force attacks originating from diverse global locations. Explore how a custom PowerShell script retrieves and visualizes attackers' geolocation data on an Azure Sentinel Map.
+
+<h2>Lab Overview</h2>
+<b>In this lab, I demonstrate the setup of Azure Sentinel (SIEM) connected to a live virtual machine configured as a honeypot. Witness real-time observations of RDP brute force attacks originating from various global locations. Explore how a custom PowerShell script retrieves and visualizes attackers' geolocation data on an Azure Sentinel Map.
 </b>
 <br />
 <br />
@@ -22,7 +21,7 @@
 
 - <b>ipgeolocation.io:</b> Utilizes a third-party API for IP address geolocation. Integrated into the PowerShell script to fetch geographic data, enhancing analysis of global security threat distribution.
 
-<h2>Attacks from Brazil coming in; Custom logs being output with geodata</h2>
+<h2>Incoming Attacks from Brazil: Custom Logs with Geolocation Data</h2>
 
 <p align="center">
 <img src="https://imgur.com/ntRTcDt.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
@@ -32,7 +31,7 @@
 <img src="https://imgur.com/ECxzo3b.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
 </p>
 
-<h2>World map of incoming attacks after 24 hours (built custom logs including geodata)</h2>
+<h2>Global Map of Attacks Within 24 Hours: Custom Logs with Geolocation Data</h2>
 
 <p align="center">
 <img src="https://imgur.com/z7hBHOh.jpeg" height="85%" width="85%" alt="Image Analysis Dataflow"/>
