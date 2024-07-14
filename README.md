@@ -1,9 +1,5 @@
 <h1>Analyzing Global RDP Attacks: Geolocation Insights with Azure Sentinel</h1>
 
-<h2>Description</h2>
-<b>This repository features a PowerShell script tailored to parse Windows Event Log data for analyzing failed RDP (Remote Desktop Protocol) attacks. It integrates with a third-party API to retrieve geographic information about the attackers' locations.
-</b>
-
 <h2>Lab Overview</h2>
 <b>In this lab, I demonstrate the setup of Azure Sentinel (SIEM) connected to a live virtual machine configured as a honeypot. Witness real-time observations of RDP brute force attacks originating from various global locations. Explore how a custom PowerShell script retrieves and visualizes attackers' geolocation data on an Azure Sentinel Map.
 </b>
