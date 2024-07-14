@@ -1,4 +1,4 @@
-<h1>Analyzing Global RDP Attacks: Geolocation Insights with Microsoft Sentinel</h1>
+<h1>Global RDP Attack Analysis with Microsoft Sentinel</h1>
 
 <h2>Lab Overview</h2>
 <b>In this lab, I demonstrate the Microsoft Sentinel (SIEM) setup connected to a live virtual machine configured as a honeypot. Witness real-time observations of RDP brute force attacks originating from various global locations. Explore how a custom PowerShell script retrieves and visualizes attackers' geolocation data on a Microsoft Sentinel Map.
